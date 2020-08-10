@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/site.css">
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <title>Whatzapp</title>
+</head>
+<body>
+    <nav >
+        <img class="logo" src="./logo.png" alt="">
+        <h1 id="name-h4">WhatzApp</h1>
+    </nav>
+    <div class="container">
+        <h1> </h1>
+        <div class="message right">
+            Ganga: How are you ?
+        </div>
+        <div class="message left">
+            Ram : Chechi, I am fine.
+        </div>
+        
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" id="msgInput">
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+    <script src="./js/client.js"></script>
+</body>
+</html>
